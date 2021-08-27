@@ -1,0 +1,68 @@
+
+.page_userCenter {
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+  padding-bottom: 40rpx;
+}
+.page_userCenter_userInfo {
+  position: relative;
+  margin-top: 60rpx;
+}
+.page_userCenter_avatar {
+  margin: auto;
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%
+}
+.page_userCenter_username {
+  /*font-size: 16px;*/
+  float: left;
+  position: absolute;
+  margin-left: 40rpx;
+  margin-top: 30rpx;
+  font-weight: bold;
+}
+.page_userCenter_banner {
+  margin-top: 40rpx;
+  overflow: hidden;
+  border-radius: 10rpx;
+  text-align: center;
+  width: 100%;
+}
+.page_userCenter_banner_imgs {
+  width: 100%;
+  height: 100%;
+}
+.page_userCenter_tag {
+  width: 100%;
+  margin-top: 60rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  font-size: 32rpx;
+}
+.page_userCenter_tag_img {
+  margin-left: 40rpx;
+}
+.page_userCenter_tag_img_btn{
+  margin:0;
+  padding: 0;
+  outline: none;
+  border: none;
+  border-radius:0;
+  background-color: transparent;
+  line-height: inherit;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+.page_userCenter_tag_img_btn:after{
+  border: none;
+}
+
